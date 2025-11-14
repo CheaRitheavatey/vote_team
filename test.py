@@ -53,12 +53,12 @@ def create_survey():
                     "description": {"DE": "First block"},
                     "questions": {
                         "0": {
-                            "question": {"DE": "How old are you?"},
+                            "question": {"DE": "favorite color?"},
                             "question_type": "ChoiceSingle",
                             "settings": {"mandatory": True, "grid": False},
                             "config": {
                                 "option_type": "TEXT",
-                                "options": {"0": {"DE": "18 and below"}, "1": {"DE": "18-25"}, "2": {"DE": "25+"}}
+                                "options": {"0": {"DE": "green"}, "1": {"DE": "blue"}, "2": {"DE": "red"}}
                             },
                             "analysis_mode": "FREE"
                         }
