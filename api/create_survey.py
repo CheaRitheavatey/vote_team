@@ -36,7 +36,7 @@ def create_survey():
             question_type = "ChoiceSingle"
             break
         elif q_type == "2":
-            question_type = "ChoiceMultiple"
+            question_type = "ChoiceMulti"
             break
         else:
             print("Invalid option. Please enter 1 or 2.")
